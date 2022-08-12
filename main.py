@@ -20,9 +20,7 @@ service = Service("C:/Users/x79/PycharmProjects/ScrapeJAVHDPORN/geckodriver-v0.3
 
 driver = webdriver.Firefox(service=service, options=options)
 
-
 class DownloadThread():
-
     def __init__(self, Thread, parent, url, vid_code, fsize):
         """Constructor"""
         Thread.__init__(self)
